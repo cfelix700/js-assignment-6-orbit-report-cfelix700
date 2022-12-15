@@ -14,9 +14,18 @@ export class Satellite {
 		this.operational = operational;
    }
 	
+   
+	
 	isSpaceDebris(): boolean {
+		
+		if (this.type == 'Space Debris'){
+			console.log('rofl')
 		return true;
-   }
+		} else {
+			return false;
+		}
+		
+	}
 
 }
 
